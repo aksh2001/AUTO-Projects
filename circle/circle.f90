@@ -23,7 +23,7 @@ subroutine stpnt(ndim, u, par , t)
     double precision, intent(inout) :: u(ndim),par(*)
     double precision, intent(in) :: t
 
-    par(1) = 1.0d0
+    par(1) = -1.0d0
     u(1) = 0.0d0
 
 end subroutine stpnt
